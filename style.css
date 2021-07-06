@@ -7,7 +7,7 @@ h1{
 .darkvoilet-color{
     color: pink;
 }
-section{
+.flexible-container{
     display: flex;
     margin-top: 100px;
     margin-bottom: 150px;
@@ -17,7 +17,7 @@ section{
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -28,5 +28,14 @@ section{
     border-radius: 30px;
 }
 .About-Me{
-    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-image: url(images/shapes/Frame\ 58.jpg);
+}
+.recipies-title{
+    box-shadow: 10px 10px 10px 10px gray;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 30px;
+}
+.recipies-title img{
+    width: 100%;
 }
